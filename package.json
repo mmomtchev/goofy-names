@@ -1,0 +1,27 @@
+{
+  "name": "goofy-names",
+  "version": "1.0.0",
+  "description": "Generate a unique but deterministic Docker container-like name from a string",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "scripts": {
+    "test": "node test.cjs && node --experimental-json-modules test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmomtchev/goofy-names.git"
+  },
+  "keywords": [
+    "goofy",
+    "name-generator"
+  ],
+  "author": "Momtchil Momtchev <momtchil@momtchev.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmomtchev/goofy-names/issues"
+  },
+  "homepage": "https://github.com/mmomtchev/goofy-names#readme",
+  "dependencies": {
+    "simple-sha1": "^3.1.0"
+  }
+}
